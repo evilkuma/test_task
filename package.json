@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "vue": "^2.6.11",
+    "vue-element-resize-event": "^0.1.0",
     "vue-router": "^3.1.6"
   }
 }
