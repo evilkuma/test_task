@@ -1,6 +1,6 @@
 <template>
-  <div v-elresize @elresize="test">
-    <canvas ref="canvas"></canvas>
+  <div v-elresize @elresize="test" ref="canvas">
+    
   </div>
 </template>
 
