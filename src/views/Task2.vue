@@ -1,10 +1,26 @@
 <template>
-  <div>task2</div>
+  <div v-elresize @elresize="test" ref="canvas">
+    
+  </div>
 </template>
 
 <script>
-export default {
+import Main from './../js/task2/main'
 
+export default {
+  data() {
+    return {
+      main: null
+    }
+  },
+  mounted() {
+    this.main = Main(this.$refs.canvas)
+  },
+  methods: {
+    test(e) {
+      this.main.updateRendererSize()
+    }
+  }
 }
 </script>
 

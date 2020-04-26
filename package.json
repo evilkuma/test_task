@@ -39,6 +39,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "dat.gui": "^0.7.7",
     "three": "^0.115.0",
     "vue": "^2.6.11",
     "vue-element-resize-event": "^0.1.0",
